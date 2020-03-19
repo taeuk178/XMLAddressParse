@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A900CFC82421F00A00B8749A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900CFC72421F00A00B8749A /* Common.swift */; };
+		A942BCD724231003003EC3EE /* StVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942BCD624231003003EC3EE /* StVC.swift */; };
 		A9A84F6A241F738900A83B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84F69241F738900A83B2A /* AppDelegate.swift */; };
 		A9A84F6C241F738900A83B2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84F6B241F738900A83B2A /* SceneDelegate.swift */; };
 		A9A84F6E241F738900A83B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84F6D241F738900A83B2A /* ViewController.swift */; };
 		A9A84F71241F738900A83B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84F6F241F738900A83B2A /* Main.storyboard */; };
 		A9A84F73241F738C00A83B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A84F72241F738C00A83B2A /* Assets.xcassets */; };
 		A9A84F76241F738C00A83B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84F74241F738C00A83B2A /* LaunchScreen.storyboard */; };
+		A9AB8D69242094D6006DDE9A /* GuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB8D68242094D6006DDE9A /* GuVC.swift */; };
+		A9AB8D6B242094DD006DDE9A /* DongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB8D6A242094DD006DDE9A /* DongVC.swift */; };
+		A9CE023E2421B2B000B38F8A /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE023D2421B2B000B38F8A /* TestVC.swift */; };
+		A9CE02402421B7CE00B38F8A /* EstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE023F2421B7CE00B38F8A /* EstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A900CFC72421F00A00B8749A /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A942BCD624231003003EC3EE /* StVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StVC.swift; sourceTree = "<group>"; };
 		A9A84F66241F738900A83B2A /* XMLAddressParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLAddressParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84F69241F738900A83B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9A84F6B241F738900A83B2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		A9A84F72241F738C00A83B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A84F75241F738C00A83B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A84F77241F738C00A83B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AB8D68242094D6006DDE9A /* GuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuVC.swift; sourceTree = "<group>"; };
+		A9AB8D6A242094DD006DDE9A /* DongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongVC.swift; sourceTree = "<group>"; };
+		A9CE023D2421B2B000B38F8A /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		A9CE023F2421B7CE00B38F8A /* EstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		A9A84F68241F738900A83B2A /* XMLAddressParse */ = {
 			isa = PBXGroup;
 			children = (
+				A9CE023C2421B2A200B38F8A /* tester */,
 				A9A84F69241F738900A83B2A /* AppDelegate.swift */,
 				A9A84F6B241F738900A83B2A /* SceneDelegate.swift */,
 				A9A84F6D241F738900A83B2A /* ViewController.swift */,
+				A9AB8D68242094D6006DDE9A /* GuVC.swift */,
+				A9AB8D6A242094DD006DDE9A /* DongVC.swift */,
 				A9A84F6F241F738900A83B2A /* Main.storyboard */,
 				A9A84F72241F738C00A83B2A /* Assets.xcassets */,
 				A9A84F74241F738C00A83B2A /* LaunchScreen.storyboard */,
 				A9A84F77241F738C00A83B2A /* Info.plist */,
 			);
 			path = XMLAddressParse;
+			sourceTree = "<group>";
+		};
+		A9CE023C2421B2A200B38F8A /* tester */ = {
+			isa = PBXGroup;
+			children = (
+				A9CE023D2421B2B000B38F8A /* TestVC.swift */,
+				A9CE023F2421B7CE00B38F8A /* EstVC.swift */,
+				A942BCD624231003003EC3EE /* StVC.swift */,
+				A900CFC72421F00A00B8749A /* Common.swift */,
+			);
+			path = tester;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +129,7 @@
 				};
 			};
 			buildConfigurationList = A9A84F61241F738900A83B2A /* Build configuration list for PBXProject "XMLAddressParse" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A942BCD724231003003EC3EE /* StVC.swift in Sources */,
+				A900CFC82421F00A00B8749A /* Common.swift in Sources */,
 				A9A84F6E241F738900A83B2A /* ViewController.swift in Sources */,
 				A9A84F6A241F738900A83B2A /* AppDelegate.swift in Sources */,
+				A9CE02402421B7CE00B38F8A /* EstVC.swift in Sources */,
+				A9AB8D69242094D6006DDE9A /* GuVC.swift in Sources */,
 				A9A84F6C241F738900A83B2A /* SceneDelegate.swift in Sources */,
+				A9CE023E2421B2B000B38F8A /* TestVC.swift in Sources */,
+				A9AB8D6B242094DD006DDE9A /* DongVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
